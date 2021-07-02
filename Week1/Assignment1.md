@@ -35,3 +35,17 @@ The input features are considered "fixed". Fixed means that they are treated as 
 
 ***Absence of multicollinearity***
 You do not want strongly correlated features, because this messes up the estimation of the weights. In a situation where two features are strongly correlated, it becomes problematic to estimate the weights because the feature effects are additive and it becomes indeterminable to which of the correlated features to attribute the effects.
+
+
+
+# Part 2
+
+
+[Amazon Web Services (AWS)](https://aws.amazon.com/) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. To gain free, hands-on experience with the AWS platform, products, and services, one can start using the [AWS Free Tier](https://aws.amazon.com/free/) account. 
+
+From Week 2 onwards, we will use some of the services of AWS to store our datasets, metadata, models & logs, and also to deploy trained models in production. All this can be achieved using the AWS Free Tier Account. 
+
+Your task this week is to **follow the [instructions mentioned here](https://analyticshut.com/create-aws-account/) & create your own AWS Free Tier Account**, which you will use later in this course.
+
+Once you create your account, use the [AWS Docs](https://docs.aws.amazon.com/) & explore some of the of services that the console offers (& **[Amazon S3](https://aws.amazon.com/s3/)** specifically).
+
