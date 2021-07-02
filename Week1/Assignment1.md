@@ -49,3 +49,5 @@ Your task this week is to **follow the [instructions mentioned here](https://ana
 
 Once you create your account, use the [AWS Docs](https://docs.aws.amazon.com/) & explore some of the of services that the console offers (& **[Amazon S3](https://aws.amazon.com/s3/)** specifically).
 
+
+![Screenshot](aws_console.jpg)
