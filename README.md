@@ -1,4 +1,4 @@
-# Fundamentals_of_MLOps_
+# Fundamentals of MLOps: A Hands-On Approach
 
 # Weekly Content
 
