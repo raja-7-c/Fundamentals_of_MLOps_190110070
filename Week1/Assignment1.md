@@ -2,7 +2,7 @@
 
 Perform some background research & answer the following questions:
 
-***1. In the notes of Week 1, we compared & contrasted MLOps with DevOps. In this question, you need to understand what is meant by the term *** AIOps***, ***& then contrast it with MLOps.***
+***1. In the notes of Week 1, we compared & contrasted MLOps with DevOps. In this question, you need to understand what is meant by the term AIOps, & then contrast it with MLOps.***
 
 ***AIOps***, sometimes referred to as ***Artificial Intelligence for IT Operations*** or ***Algorithmic IT Operations*** is a term invented by Gartner in 2016 as an industry category for Machine Learning analytics technology that enhances IT operations analytics.
 AIOps platforms utilize big data, modern machine learning and other advanced analytics technologies to directly and indirectly enhance IT operations (monitoring, automation and service desk) functions with proactive, personal and dynamic insight. AIOps platforms enable the concurrent use of multiple data sources, data collection methods, analytical (real-time and deep) technologies, and presentation technologies. AIOps' ultimate goal is enhancing IT operations. The central process in AIOps is the intelligent filtering of signals our of the noise in IT systems. AIOps is an approach to use machine intelligence to solve this problem by collecting, processing, and observing intelligently IT operations data in order to identify root causes and propose solutions fast. In some cases, AIOps have the capability to solve problems without human intervention.
@@ -13,7 +13,7 @@ AIOps is all about supporting and reacting to its issues in real-time and provid
 MLOps, on the other hand, focuses on managing training and testing data that is needed to create machine learning models effectively. It is all about monitoring and management of ML models. It focuses on the Machine Learning operationalization pipeline. AIOps is all about applying cognitive computing techniques to improve IT operations, but it is not to be confused with MLOps.
 Compared to MLOps, AIOps is a narrower practice that automates IT functions using machine learning. The goal of MLOps is to bridge the gap between operation teams and data scientists, and consequently between the execution and development of ML models. In contrast, the focus of AIOps is smart analysis of root causes and automated management of IT incidents. AIOps refers to the application of machine learning and artificial intelligence to IT operations to streamline repetitive tasks. MLOps, on the other hand, refers to the application of IT operations and DevOps practices in machine learning workflows.
 
-***2. Interpretable Machine Learning*** ***is another concept that has attracted lot of attention recently & is promoted by most of the MLOps frameworks. Explain what it means for a linear regression model to be interpretable.*** 
+***2. Interpretable Machine Learning is another concept that has attracted lot of attention recently & is promoted by most of the MLOps frameworks. Explain what it means for a linear regression model to be interpretable.*** 
 
 The biggest advantage of linear regression models is linearity: It makes the estimation procedure simple and, most importantly, these linear equations have an easy to understand interpretation on a modular level (i.e. the weights). This is one of the main reasons why the linear model and all similar models are so widespread in academic fields such as medicine, sociology, psychology, and many other quantitative research fields. For example, in the medical field, it is not only important to predict the clinical outcome of a patient, but also to quantify the influence of the drug and at the same time take sex, age, and other features into account in an interpretable way.
 
@@ -36,7 +36,7 @@ The input features are considered "fixed". Fixed means that they are treated as 
 ***Absence of multicollinearity***
 You do not want strongly correlated features, because this messes up the estimation of the weights. In a situation where two features are strongly correlated, it becomes problematic to estimate the weights because the feature effects are additive and it becomes indeterminable to which of the correlated features to attribute the effects.
 
-***3. What is ***AutoML*** ***? How is it related to MLOps? Just as we saw a list of various MLOps tools, create a list of 3-5 tools used for AutoML (& try to explore their functionality by reading their docs).***
+***3. What is AutoML? How is it related to MLOps? Just as we saw a list of various MLOps tools, create a list of 3-5 tools used for AutoML (& try to explore their functionality by reading their docs).***
 
 
 # Part 2
