@@ -36,6 +36,7 @@ The input features are considered "fixed". Fixed means that they are treated as 
 ***Absence of multicollinearity***
 You do not want strongly correlated features, because this messes up the estimation of the weights. In a situation where two features are strongly correlated, it becomes problematic to estimate the weights because the feature effects are additive and it becomes indeterminable to which of the correlated features to attribute the effects.
 
+3. *What is **AutoML**? How is it related to MLOps? Just as we saw a list of various MLOps tools, create a list of 3-5 tools used for AutoML (& try to explore their functionality by reading their docs).*
 
 
 # Part 2
