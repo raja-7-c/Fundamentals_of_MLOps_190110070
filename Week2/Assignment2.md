@@ -43,3 +43,7 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 ***$ dvc add data/creditcard.csv***
 
 ***$ dvc remote add -d storage s3://mlopsdvc190110070/datastore***
+
+***$ dvc push***
+
+
