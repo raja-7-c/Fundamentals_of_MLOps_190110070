@@ -46,4 +46,26 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 
 ***$ dvc push***
 
+# Part 2
+
+The second part of this assignment is designed to give you a flavor of how DVC can be used to track ML artifacts (data, models & metrics) across multiple experiments in an ML project, by simply leveraging the basic features of DVC that we have learnt so far. To accomplish this part of the assignment, you need to do the following:
+
+- Create the required folders such that the structure of the `MLOps_Assignment` repository looks like the [generic ML project directory structure](https://www.notion.so/Week-2-Data-Model-Management-with-DVC-1bdbe182a0d344cca193c9cdb7e18a64).
+- Checkout a Git `branch` named `expt1_dt` & create an `expt.py` file within `src/` folder, which does the following:
+    - Reads the actual data file stored in the DVC remote (use `dvc.api`) into a `pandas` dataframe
+    - Performs the relevant feature engineering as you may deem necessary based on your EDA (optional)
+    - Splits the data into 80 : 20 (train : test) ratio (while trying to maintain the relative proportion of target label `Class` in each split) & saves the splits as `data/processed/train.csv` & `data/processed/test.csv`
+    - Trains a **Decision Tree model** (use `scikit-learn`) using `entropy` as the splitting criterion on the `data/processed/train.csv`
+    - Saves the trained model as `models/model.pkl`
+    - Evaluates the trained model on the test data (`data/processed/test.csv`) using the **Accuracy** & ***weighted* F1 Score** & saves the results into a JSON file `metrics/acc_f1.json`
+ - Run this script to generate the various files (processed data, model & metrics). Use DVC to track these files & upload them to the S3 bucket such that:
+    - The data resides in the `datastore` folder
+    - The model resides in the `modelstore` folder
+    - The metrics reside in the `metricstore` folder
+- Switch to a new branch on Git & name it `expt2_rf`
+- Modify the `src/expt.py` file to train a **Random Forest model** (with appropriate hyperparameters) this time instead of the decision tree model (let all other code remain the same)
+- Run this script to generate the new model & its corresponding metrics file
+- Track these new artifacts & upload them to the DVC remote
+
+With this, you have now been able to use DVC to not only track data, but also other ML artifacts like models & metrics across experiments using DVC. You can switch between the 2 branches that you created & do a `dvc checkout` to sync the artifacts corresponding to the respective experiment.
 
