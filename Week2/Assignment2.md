@@ -30,6 +30,8 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 
 ***$ git push***
 
+***$ dvc add/data/creditcard.csv***
+
 ***$ make dir external_cache***
 
 ***$ cd ~/Desktop/***
