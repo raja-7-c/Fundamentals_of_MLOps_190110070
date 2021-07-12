@@ -43,3 +43,5 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 ***$ dvc cache dir C:/Users/hp/Desktop/external_cache***
 
 ***$ dvc cache dir(for confirmation)***
+
+***$ dvc add data/creditcard.csv ***
