@@ -33,7 +33,11 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 ***$ make dir external_cache***
 
 ***$ cd ~/Desktop/***
+
 ***$ mkdir external_cache***
+
 ***$ cd ~/Desktop/MLOps_Assignment/***
+
 ***$ dvc cache dir C:/Users/hp/Desktop/external_cache***
+
 ***$ dvc cache dir(for confirmation)***
