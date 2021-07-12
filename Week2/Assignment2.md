@@ -19,3 +19,13 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 ***$ git branch -M main***
 
 ***$ dvc init***
+
+***mkdir data***
+
+***touch docs/.gitkeep***
+
+git add *
+
+***git commit -m "create data directory"***
+
+***git push***
