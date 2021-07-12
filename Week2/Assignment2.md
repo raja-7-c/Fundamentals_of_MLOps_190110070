@@ -20,12 +20,20 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 
 ***$ dvc init***
 
-***mkdir data***
+***$ mkdir data***
 
-***touch docs/.gitkeep***
+***$ touch docs/.gitkeep***
 
-git add *
+ $ git add *
 
-***git commit -m "create data directory"***
+***$ git commit -m "create data directory"***
 
-***git push***
+***$ git push***
+
+***$ make dir external_cache***
+
+***$ cd ~/Desktop/***
+***$ mkdir external_cache***
+***$ cd ~/Desktop/MLOps_Assignment/***
+***$ dvc cache dir C:/Users/hp/Desktop/external_cache***
+***$ dvc cache dir(for confirmation)***
