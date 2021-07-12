@@ -22,7 +22,7 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 
 ***$ mkdir data***
 
-***$ touch docs/.gitkeep***
+***$ touch data/.gitkeep***
 
  $ git add *
 
