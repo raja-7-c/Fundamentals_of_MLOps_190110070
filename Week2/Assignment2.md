@@ -13,6 +13,9 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 - Set the S3 bucket as the default remote for the DVC repo & upload the dataset to this bucket (into a folder named `datastore`).
 
 ***$ git clone https://github.com/raja-7-c/MLOps_Assignment***
+
 ***$ git remote add origin https://github.com/raja-7-c/MLOps_Assignment***
+
 ***$ git branch -M main***
+
 ***$ dvc init***
