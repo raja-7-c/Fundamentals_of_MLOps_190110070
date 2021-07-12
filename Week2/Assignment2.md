@@ -30,8 +30,6 @@ The first part of this assignment is to evaluate your basic understanding of DVC
 
 ***$ git push***
 
-***$ make dir external_cache***
-
 ***$ cd ~/Desktop/***
 
 ***$ mkdir external_cache***
