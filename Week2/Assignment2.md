@@ -110,3 +110,7 @@ With this, you have now been able to use DVC to not only track data, but also ot
 ***$ git commit -m "prepared datasets"***
 
 ***$ git push***
+
+***$ cd ~/Desktop/MLOps_Assignment/***
+
+***$ git checkout expt1_dt***
