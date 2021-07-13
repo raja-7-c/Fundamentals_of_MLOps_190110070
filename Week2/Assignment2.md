@@ -98,3 +98,15 @@ With this, you have now been able to use DVC to not only track data, but also ot
 ***$ git commit -m ".py files for preprocessing, training, evaluation, etc."***
 
 ***$ git push***
+
+***$ cd data/***
+
+***$ mkdir prepared***
+
+***$ touch prepared/.gitkeep***
+
+ $ git add *
+
+***$ git commit -m "prepared datasets"***
+
+***$ git push***
