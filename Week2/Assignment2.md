@@ -69,3 +69,32 @@ The second part of this assignment is designed to give you a flavor of how DVC c
 
 With this, you have now been able to use DVC to not only track data, but also other ML artifacts like models & metrics across experiments using DVC. You can switch between the 2 branches that you created & do a `dvc checkout` to sync the artifacts corresponding to the respective experiment.
 
+***$ mkdir metrics***
+
+***$ touch metrics/.gitkeep***
+
+ $ git add *
+
+***$ git commit -m "Plots & logs containing performance metrics"***
+
+***$ git push***
+
+***$ mkdir models***
+
+***$ touch models/.gitkeep***
+
+ $ git add *
+
+***$ git commit -m "Trained models"***
+
+***$ git push***
+
+***$ mkdir src***
+
+***$ touch src/.gitkeep***
+
+ $ git add *
+
+***$ git commit -m ".py files for preprocessing, training, evaluation, etc."***
+
+***$ git push***
