@@ -120,5 +120,11 @@ With this, you have now been able to use DVC to not only track data, but also ot
 ***{"F1_Score": 0.9984327092155867,
 "Accuracy": 0.9982093325374811}***
 
-
+![Screenshot](screenshot/1.jpg)
+![Screenshot](screenshot/2.jpg)
+![Screenshot](screenshot/3.jpg)
+![Screenshot](screenshot/4.jpg)
+![Screenshot](aws_console.jpg)
+![Screenshot](aws_console.jpg)
+![Screenshot](aws_console.jpg)
 
