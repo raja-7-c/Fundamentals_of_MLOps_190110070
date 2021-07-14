@@ -120,6 +120,12 @@ With this, you have now been able to use DVC to not only track data, but also ot
 ***{"F1_Score": 0.9984327092155867,
 "Accuracy": 0.9982093325374811}***
 
+***RANDOM FOREST MODEL ON CREDITCARD.CSV***
+
+***{"F1_Score": 0.999496616792791, 
+"Accuracy": 0.9995084442259752}***
+
+
 ![Screenshot](screenshot/1.jpg)
 ![Screenshot](screenshot/2.jpg)
 ![Screenshot](screenshot/3.jpg)
