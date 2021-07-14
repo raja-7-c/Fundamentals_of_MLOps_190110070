@@ -114,3 +114,11 @@ With this, you have now been able to use DVC to not only track data, but also ot
 ***$ cd ~/Desktop/MLOps_Assignment/***
 
 ***$ git checkout -b expt1_dt***
+
+***DECISION TREE MODEL ON CREDITCARD.CSV***
+
+***{"F1_Score": 0.9984327092155867,
+"Accuracy": 0.9982093325374811}***
+
+
+
