@@ -113,4 +113,4 @@ With this, you have now been able to use DVC to not only track data, but also ot
 
 ***$ cd ~/Desktop/MLOps_Assignment/***
 
-***$ git checkout expt1_dt***
+***$ git checkout -b expt1_dt***
