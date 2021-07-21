@@ -26,3 +26,9 @@
 |   Decision Tree Classifier               |           0.7621                    |        0. 8058                          |
 |    SVM - Linear Kernel              |           0.7111                  |        0.8176                           |
 |    Gradient Boosting Classifier               |           0.7078                    |        0.7673                           |
+
+# Blended Model and its Metrics
+
+ |	Model	|Accuracy |	AUC	|Recall	|Precision|	F1|	Kappa	|MCC|
+ | :---   |       :----:  |           :---:    | :---:     |           :----:            |           :---:      |      :---:   |           :---:                    |        
+|	Voting Classifier|	0.9994|	0.8724|	0.7449|	0.8690	|0.8022|	0.8019|	0.8043|
