@@ -1,7 +1,7 @@
 
 # Week 3 Assignment
 ### Github repo link
-[here](https://github.com/raja-7-c/MLOps_Assignment)
+[here](https://github.com/raja-7-c/MLOps_Assignment/pycaret_expt1)
 
 # List of Preprocessing and Feature Engineering Techniques
 
