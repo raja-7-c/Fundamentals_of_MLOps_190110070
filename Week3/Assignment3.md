@@ -17,7 +17,9 @@
 
 ***Trigonometry Features***
 
-| TOP-5 Models      | F1 Scores(Before fine-tuning) | F1 Scores(Before after-tuning)     |
+# Top-5 Models and F1 Scores
+
+| TOP-5 Models      | F1 Scores(Before fine-tuning) | F1 Scores(  After fine-tuning)     |
 | :---              |           :----:              |           :---:                    |
 |    Linear Discriminant Analysis               |           0.8166                    |        0.8189                            |
 |    Logistic Regression             |           0.7914	             |        0.7979                         |
