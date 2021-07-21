@@ -16,3 +16,7 @@
 ***Polynomial Features***
 
 ***Trigonometry Features***
+
+| TOP-5 Models      | F1 Scores(Before fine-tuning) | F1 Scores(Before after-tuning)     |
+| :---              |           :----:              |            ---:                    |
+|    Linear Discriminant Analysis               |           0.8166                    |        0.8189                            |
