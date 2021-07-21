@@ -27,6 +27,10 @@
 |    SVM - Linear Kernel              |           0.7111                  |        0.8176                           |
 |    Gradient Boosting Classifier               |           0.7078                    |        0.7673                           |
 
+
+![Screenshot](confusion_matrix.jpg)
+![Screenshot](learning_curve.jpg)
+
 # Blended Model and its Metrics
 
  |	Model	|Accuracy |	AUC	|Recall	|Precision|	F1|	Kappa	|MCC|
